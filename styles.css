@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 100px;
+    border: 5px solid;
+}
+
+.third,
+.half {
+    border: 5px solid;
+    float: left;
+}
+
+.third {
+    height: 150px;
+    width: 33.3333%;
+}
+
+.halves,
+footer {
+    clear: both;
+}
+
+.half {
+    height: 200px;
+    width: 50%;
+}
